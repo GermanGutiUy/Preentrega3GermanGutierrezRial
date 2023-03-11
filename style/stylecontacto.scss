@@ -1,57 +1,54 @@
-/* Colores a usar */
-$color1: #0B5B67;
-$color2: #E89292;
-$color3: #FBDD8E;
-$color4: #F6BABA;
+// Colores a usar
+$color-primary: #0B5B67;
+$color-secondary: #E89292;
+$color-tertiary: #FBDD8E;
 
-#cuerpo{
-background-color: $color3;
+// Cuerpo
+#cuerpo {
+  background-color: $color-tertiary;
 }
 
-/* Estilo de todas las etiquetas h1 */
+// Estilo de todas las etiquetas h1 y h2
+h1,
+h2 {
+  font-size: 36px;
+  font-family: sans-serif;
+}
+
 h1 {
-font-size: 36px;
-color: $color1;
-font-family: sans-serif;
+  color: $color-primary;
 }
 
 h2 {
-font-size: 36px;
-color: $color2;
-font-family: sans-serif;
+  color: $color-secondary;
 }
 
-/* Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton. */
+// Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton.
 #boton {
-background-color: rgb(168, 167, 167);
-color: #fff;
-width: 100px;
-padding: 20px;
-border: 1px solid #000;
-border-radius: 5px;
+  background-color: rgb(168, 167, 167);
+  color: #fff;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
-/* párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y separación de 20 píxeles entre párrado y párrafo*/
-#Descripcion {
-font-family: 'sans-serif';
-font-size: 14px;
-color: rgb(0, 0, 0);
-line-height: 18px;
-margin-bottom: 20px;
+// párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y separación de 20 píxeles entre párrado y párrafo
+#Descripcion,
+#Registrado {
+  font-family: 'sans-serif';
+  font-size: 14px;
+  color: #000;
+  line-height: 18px;
+  margin-bottom: 20px;
 }
 
 #Registrado {
-font-family: 'Open Sans';
-font-size: 14px;
-color: rgb(153, 153, 153);
-line-height: 18px;
-margin-bottom: 20px;
+  font-family: 'Open Sans';
+  color: #999;
 }
 
-#collares{
-display: inline;
-margin-bottom: 5px;
-margin-left: 10px;
-margin-right: 12px;
-margin-top: 15px;
+#collares {
+  display: inline;
+  margin: 15px 12px 5px 10px;
 }

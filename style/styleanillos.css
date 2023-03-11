@@ -1,47 +1,45 @@
 #cuerpo {
   background-color: #FBDD8E;
-}
-
-h1 {
+  }
+  
+  h1, h2 {
   font-size: 36px;
+  font-family: sans-serif;
+  }
+  
+  h1 {
   color: #0B5B67;
-  font-family: sans-serif;
-}
-
-h2 {
-  font-size: 36px;
+  }
+  
+  h2 {
   color: #E89292;
-  font-family: sans-serif;
-}
-
-#boton {
+  }
+  
+  #boton {
   background-color: rgb(168, 167, 167);
   color: #fff;
   width: 100px;
   padding: 20px;
   border: 1px solid #000;
   border-radius: 5px;
-}
-
-#Descripcion, #Registrado {
+  }
+  
+  #Descripcion, #Registrado {
   font-family: "sans-serif";
   font-size: 14px;
   color: #000;
   line-height: 18px;
-  margin-bottom: 20px;
-}
-
-#Registrado {
+  margin: 0 0 20px;
+  }
+  
+  #Registrado {
   font-family: "Open Sans";
   color: #999;
-}
-
-#collares {
+  }
+  
+  #collares {
   display: inline;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  margin-right: 12px;
-  margin-top: 15px;
-}
-
-/*# sourceMappingURL=styleanillos.css.map */
+  margin: 15px 12px 5px 10px;
+  }
+  
+  /*# sourceMappingURL=styleanillos.css.map */

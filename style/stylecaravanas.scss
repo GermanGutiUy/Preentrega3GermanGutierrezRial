@@ -1,66 +1,63 @@
-/* Colores a usar
-0B5B67
-E89292
-FBDD8E (Fondo)
-F6BABA */
+// Colores
+$color-primary: #0B5B67;
+$color-secondary: #E89292;
+$color-bg: #FBDD8E;
+$color-gray: #A8A7A7;
+$color-black: #000;
+$color-white: #fff;
 
-$cuerpo-bg: #FBDD8E;
-$h1-color: #0B5B67;
-$h2-color: #E89292;
-$sans-serif: sans-serif;
-$open-sans: 'Open Sans';
+// Fuentes
+$font-sans: sans-serif;
+$font-open-sans: 'Open Sans';
 
-#cuerpo {
+// Cuerpo
+$cuerpo-bg: $color-bg;
+$cuerpo {
   background-color: $cuerpo-bg;
 }
 
-/* Estilo de todas las etiquetas h1 */
-h1 {
+// Encabezados
+$h1 {
   font-size: 36px;
-  color: $h1-color;
-  font-family: $sans-serif;
+  font-family: $font-sans;
+  color: $color-primary;
 }
 
-h2 {
+$h2 {
   font-size: 36px;
-  color: $h2-color;
-  font-family: $sans-serif;
+  font-family: $font-sans;
+  color: $color-secondary;
 }
 
-/* Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton. */
+// Botón
 #boton {
-  background-color: rgb(168, 167, 167);
-  color: #fff;
+  background-color: $color-gray;
+  color: $color-white;
   width: 100px;
   padding: 20px;
-  border: 1px solid #000;
+  border: 1px solid $color-black;
   border-radius: 5px;
 }
 
-/* párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y  separación de 20 píxeles entra párrado y párrafo*/
-#Descripcion {
-  font-family: $sans-serif;
+// Descripción y Registrado
+$text {
+  font-family: $font-sans;
   font-size: 14px;
-  color: rgb(0, 0, 0);
   line-height: 18px;
   margin-bottom: 20px;
+}
+
+#Descripcion {
+  color: $color-black;
 }
 
 #Registrado {
-  font-family: $open-sans;
-  font-size: 14px;
-  color: rgb(153, 153, 153);
-  line-height: 18px;
-  margin-bottom: 20px;
+  font-family: $font-open-sans;
+  color: $color-gray;
 }
 
+// Collares
 #collares {
   display: inline;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  margin-right: 12px;
-  margin-top: 15px;
+  margin: 15px 12px 5px 10px;
 }
-
-
-
